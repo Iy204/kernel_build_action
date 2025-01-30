@@ -20,10 +20,10 @@ jobs:
           config: alioth_defconfig
           arch: arm64
           aosp-gcc: true
-          aosp-clang: true
+          aosp-clang: false
           ksu-other: true
           ksu-url: https://github.com/rsuntk/KernelSU
           android-version: 15
-          aosp-clang-version: r530567
+          other-clang-url: https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/main/clang-r547379.tar.gz
           disable-lto: false
           anykernel3: true
